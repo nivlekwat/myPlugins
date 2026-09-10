@@ -9,7 +9,7 @@
       "displayName": "Gated Development Orchestration",
       "source": {
         "source": "local",
-        "path": "./plugins/gated-development-orchestration"
+        "path": "./plugins/gated-development-orchestration-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",
