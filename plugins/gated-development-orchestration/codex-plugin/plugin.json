@@ -1,0 +1,34 @@
+{
+  "name": "gated-development-orchestration",
+  "version": "1.4.0",
+  "description": "Coordinate checkpoint development with GitHub-routed Codex implementation and independent ChatGPT review.",
+  "author": {
+    "name": "Aquanuity"
+  },
+  "keywords": [
+    "github",
+    "codex",
+    "orchestration",
+    "checkpoint",
+    "code-review",
+    "gated-development"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Gated Development Orchestration",
+    "shortDescription": "Orchestrate checkpointed Codex work and independent review",
+    "longDescription": "Coordinates gated software development through pinned source documents, frozen GitHub work orders, bounded Codex implementation, durable evidence, routed independent ChatGPT review, correction cycles, and explicit acceptance.",
+    "developerName": "Aquanuity",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review the current gate and tell me whether it is ready to activate.",
+      "Review the latest implementation evidence and issue PASS or a bounded correction.",
+      "Prepare the next gated checkpoint from the pinned source-of-truth document."
+    ]
+  }
+}
