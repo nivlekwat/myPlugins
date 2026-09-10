@@ -1,0 +1,22 @@
+{
+  "name": "mine-plugins",
+  "interface": {
+    "displayName": "Mine Plugins"
+  },
+  "plugins": [
+    {
+      "name": "gated-development-orchestration",
+      "displayName": "Gated Development Orchestration",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gated-development-orchestration-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development & Workflow",
+      "description": "Github issue gated development"
+    },
+  ]
+}
